@@ -1,5 +1,5 @@
 {
-    "name": "matthewbdaly/abstract-or-final-sniff",
+    "name": "roslov/abstract-or-final-sniff",
     "description": "A CodeSniffer sniff that requires that all classes be either abstract or final",
     "type": "phpcodesniffer-standard",
     "require-dev": {
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Matthewbdaly\\AbstractOrFinalSniff\\": "src/"
+            "AbstractOrFinalClassesOnly\\": "src/"
         }
     }
 }
